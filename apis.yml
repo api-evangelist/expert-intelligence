@@ -1,8 +1,18 @@
 aid: expert-intelligence
 name: Expert Intelligence
-description: 'Expert Intelligence is a company surfaced as a portfolio company of sierra-ventures and
-  added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Expert Intelligence is an AI company building analytical automation for
+  pharmaceutical drug-development laboratories. Its platform turns raw instrument data
+  into signed, regulatory-grade results and surfaces lab-wide trends across instruments,
+  methods, and sites. Two integrated products anchor the offering: EI Flow automates
+  batch analysis by converting instrument output into SOP-aware, signed, explainable
+  results that reach LIMS systems in minutes so analysts review only exceptions, and
+  EI Signal unifies historical data across instruments, methods, and sites to surface
+  drift and anomalies before release. The company promotes exception-based review for
+  higher accuracy, a Limited Sample Model (LSM) approach that needs only 30-50 expert
+  examples, and instrument-agnostic deployment across cloud, on-premises, or hybrid
+  environments. Backed by Sierra Ventures. This profile was added to the API Evangelist
+  network from a VC portfolio and enriched from the company''s public website; no
+  public developer API, documentation portal, or SDKs were found at enrichment time.'
 url: https://raw.githubusercontent.com/api-evangelist/expert-intelligence/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +20,30 @@ x-backed-by:
 - sierra-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: http://static1.squarespace.com/static/6462a50322165a5311fef101/t/69827172ad23764631815831/1776391704512/EI_SLAS26_KeyImage.png?format=1500w
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Ai
+- Pharmaceutical
+- Laboratory Automation
+- Analytical Chemistry
+- Life Sciences
+- Data Analytics
+- LIMS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +51,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/expert-intelligence-domain-security.yml
 - type: Website
   url: https://expertintelligence.ai/
+- type: Blog
+  url: https://expertintelligence.ai/news
+- type: PrivacyPolicy
+  url: https://expertintelligence.ai/privacy-policy
+- type: TermsOfService
+  url: https://expertintelligence.ai/terms-conditions
+- type: Support
+  url: mailto:info@expertintelligence.ai
+- type: LinkedIn
+  url: https://www.linkedin.com/company/90655250/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

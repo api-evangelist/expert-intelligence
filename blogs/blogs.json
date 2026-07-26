@@ -1,0 +1,14 @@
+{
+  "repo": "expert-intelligence",
+  "feeds": [
+    {
+      "source": "https://expertintelligence.ai/",
+      "feed_url": "https://expertintelligence.ai/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}
