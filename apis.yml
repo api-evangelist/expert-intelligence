@@ -32,7 +32,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: http://static1.squarespace.com/static/6462a50322165a5311fef101/t/69827172ad23764631815831/1776391704512/EI_SLAS26_KeyImage.png?format=1500w
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
